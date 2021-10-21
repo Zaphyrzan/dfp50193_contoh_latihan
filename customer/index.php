@@ -22,15 +22,10 @@ $stmt->fetch();
     <title>Document</title>
 </head>
 <body>
-<?php echo "Selamat Datang $cust_name"; ?>
 
-<form action="login.php" method="post">
-    <label for="idpengguna">ID Pengguna</label>
-    <input type="text" name="idpengguna" id="idpengguna">
-    <label for="katalaluan">Kata Laluan</label>
-    <input type="password" name="katalaluan" id="katalaluan">
-    <button type="submit">MASUK</button>
-</form>
+    <?php echo "Selamat Datang $cust_name"; ?>
+
+    <p><a href="../logout.php">Logout</a></p>
 
 </body>
 </html>

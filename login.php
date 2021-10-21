@@ -49,7 +49,8 @@ if ($idpengguna == 'admin') {
     }
 }
 
-# popup apabila login gagal function gagal()
+# popup apabila login gagal 
+function gagal()
 {
 ?>
     <script>
